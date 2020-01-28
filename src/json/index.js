@@ -13,9 +13,9 @@ const endDate = '28. mars';
 export const eventData = {
   date: `${startDate} - ${endDate} ${year}`,
   longDate: `${startDate} - ${endDate} ${year}`,
-  venue: 'Sundvollen hotell',
+  venue: 'Sundvolden hotell',
   adress: 'Dronningveien 2, 3531 Krokkleiva',
-  city: 'Sundvollen',
+  city: 'Sundvolden',
   country: 'Norway',
   year,
   monthNumber: 3,

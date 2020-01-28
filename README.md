@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/knowit/sundvollen.knowit.no.svg?branch=master)](https://travis-ci.org/knowit/sundvollen.knowit.no)
-
-# Knowit Sundvollen
+# Knowit Sundvolden
 
 Created with [Gatsby](https://www.gatsbyjs.org/).
 

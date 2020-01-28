@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/knowit/praha.knowit.no.svg?branch=master)](https://travis-ci.org/knowit/praha.knowit.no)
+[![Build Status](https://travis-ci.org/knowit/sundvollen.knowit.no.svg?branch=master)](https://travis-ci.org/knowit/sundvollen.knowit.no)
 
-# Knowit Praha
+# Knowit Sundvollen
 
 Created with [Gatsby](https://www.gatsbyjs.org/).
 

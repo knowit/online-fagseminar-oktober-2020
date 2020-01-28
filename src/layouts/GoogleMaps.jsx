@@ -49,13 +49,13 @@ const GoogleMaps = () => {
       <StyleGoogleMapsContent>
         <h1>Lokasjon</h1>
         <a
-          href="https://www.hotel-grandior.cz/en/"
+          href="https://www.sundvolden.no/"
           target="_blank"
           rel="noopener noreferrer">
           <h3>{viewmodel.event.venue}</h3>
         </a>
         <a
-          href="https://goo.gl/maps/516zDATUr5TWHUNf9"
+          href="https://g.page/Sundvolden?share"
           target="_blank"
           rel="noopener noreferrer">
           <h3>{viewmodel.event.adress}</h3>

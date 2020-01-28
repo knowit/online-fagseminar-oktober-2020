@@ -2,7 +2,7 @@ const secrets = require('./secrets');
 
 module.exports = {
   siteMetadata: {
-    title: 'Knowit Praha 2019',
+    title: 'Knowit Sundvollen 2020',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

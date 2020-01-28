@@ -1,24 +1,24 @@
 export const villages = [];
 
-const year = '2019';
+const year = '2020';
 const season = {
-  short: 'høst',
-  shortCapitalized: 'Høst',
-  long: 'høsten',
-  longCapitalized: 'Høsten',
+  short: 'vår',
+  shortCapitalized: 'Vår',
+  long: 'våren',
+  longCapitalized: 'Våren',
 };
-const startDate = '18. oktober';
-const endDate = '21. oktober';
+const startDate = '27. mars';
+const endDate = '28. mars';
 
 export const eventData = {
   date: `${startDate} - ${endDate} ${year}`,
   longDate: `${startDate} - ${endDate} ${year}`,
-  venue: 'Hotel Grandior',
-  adress: 'Na Poříčí, Florenc, Praha 1-Florenc-Praha 1',
-  city: 'Praha',
-  country: 'Tsjekkia',
+  venue: 'Hotel Sundvollen',
+  adress: 'Dronningveien 2, 3531 Krokkleiva',
+  city: 'Krokkleiva',
+  country: 'Norway',
   year,
-  monthNumber: 10,
+  monthNumber: 3,
   season,
   startDate,
   endDate,
@@ -32,6 +32,7 @@ export const eventData = {
     'Palma',
     'Ljubljana',
     'Strømstad',
+    'Praha'
   ],
 };
 
@@ -40,7 +41,7 @@ const viewmodel = {
   event: {
     ...eventData,
     gmapsUrl:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14415.927845052565!2d14.432631060963283!3d50.082471035905606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94be2dfe00a7%3A0x723fd65dc8481081!2sGrandior+Hotel+Prague!5e0!3m2!1sno!2sno!4v1558968128473!5m2!1sno!2sno',
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.1272119997684!2d10.308290551804449!3d60.06269275895836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641059304c27703%3A0xfa3155c077bf0675!2sSundvolden%20Hotel!5e0!3m2!1sno!2sno!4v1580215375769!5m2!1sno!2sno',
   },
   meta: {
     title: `Knowit Objectnet Fagseminar ${eventData.year}`,
@@ -49,20 +50,12 @@ const viewmodel = {
   },
   days: [
     {
-      date: '18',
-      label: 'Fredag 18.10',
+      date: '27',
+      label: 'Fredag 27.03',
     },
     {
-      date: '19',
-      label: 'Lørdag 19.10',
-    },
-    {
-      date: '20',
-      label: 'Søndag 20.10',
-    },
-    {
-      date: '21',
-      label: 'Mandag 21.10',
+      date: '28',
+      label: 'Lørdag 28.03',
     },
   ],
   schedules: [],

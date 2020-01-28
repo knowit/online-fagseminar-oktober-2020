@@ -30,7 +30,7 @@ const StyledPushElement = styled.div`
 `;
 
 const routes = [
-  { to: '/', title: 'Praha 2019' },
+  { to: '/', title: 'Sundvollen 2020' },
   { to: '/schedule', title: 'Program' },
   { to: '/favorites', title: 'Favoritter' },
 ];

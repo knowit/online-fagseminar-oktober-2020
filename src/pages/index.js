@@ -25,7 +25,6 @@ const Frontpage = () => (
     <Content>
       <ContentSection backgroundColor={colors.blueDark} color="white">
         <StyledLogoContainer>
-          <PrahaLogo />
           <Paragraph color="white">
             {eventData.startDate} - {eventData.endDate} {eventData.year}
           </Paragraph>

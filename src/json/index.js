@@ -13,9 +13,9 @@ const endDate = '28. mars';
 export const eventData = {
   date: `${startDate} - ${endDate} ${year}`,
   longDate: `${startDate} - ${endDate} ${year}`,
-  venue: 'Hotel Sundvollen',
+  venue: 'Sundvollen hotell',
   adress: 'Dronningveien 2, 3531 Krokkleiva',
-  city: 'Krokkleiva',
+  city: 'Sundvollen',
   country: 'Norway',
   year,
   monthNumber: 3,
@@ -41,11 +41,11 @@ const viewmodel = {
   event: {
     ...eventData,
     gmapsUrl:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.1272119997684!2d10.308290551804449!3d60.06269275895836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641059304c27703%3A0xfa3155c077bf0675!2sSundvolden%20Hotel!5e0!3m2!1sno!2sno!4v1580215375769!5m2!1sno!2sno',
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99207.97332443556!2d10.418154500553305!3d59.98522145512699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641059304c27703%3A0xfa3155c077bf0675!2sSundvolden%20Hotel!5e0!3m2!1sno!2sno!4v1580216793126!5m2!1sno!2sno',
   },
   meta: {
     title: `Knowit Objectnet Fagseminar ${eventData.year}`,
-    description: `Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. ${season.longCapitalized} ${year} vil den bli avholdt ${eventData.date} i ${eventData.city}, ${eventData.country}.`,
+    description: `Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. ${season.longCapitalized} ${year} vil den bli avholdt ${eventData.date} på ${eventData.city}, ${eventData.country}.`,
     keywords: `Fagseminar, ${eventData.city}, ${eventData.country}, Fag, Foredrag`,
   },
   days: [

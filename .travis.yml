@@ -1,17 +1,12 @@
 language: node_js
+before_script:
+  - npm install -g gatsby-cli
 node_js:
-  - '10'
-before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash
-  - export PATH="$HOME/.yarn/bin:$PATH"
-after_success:
-  - npm run build
-  - cp CNAME public/
+  - "10"
 deploy:
-  provider: pages
-  skip-cleanup: true
-  local-dir: public
-  github-token: $GH_TOKEN # Set in the settings page of your repository, as a secure variable
-  keep-history: true
-on:
- branch: master
+  provider: script
+  # Note: change "docs" to the directory where your gatsby-site lives, if necessary
+  script: cd docs/ && yarn install && yarn run deploy
+  skip_cleanup: true
+  on:
+    branch: master

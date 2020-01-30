@@ -1,6 +1,6 @@
 import { useStaticQuery, graphql } from 'gatsby';
 
-export const fetchSlots = () => {
+export const FetchSlots = () => {
   const data = useStaticQuery(graphql`
     query data {
       allAirtable {

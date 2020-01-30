@@ -6,7 +6,7 @@ import DefaultLayout from '../layouts';
 import ContentSection from '../components/ContentSection';
 import { getCookie } from '../util/cookieHelper';
 import Slots from '../components/Slot/Slots';
-import { fetchSlots } from '../graphql/airtable';
+import { FetchSlots } from '../graphql/airtable';
 import colors from '../util/colors';
 import { Link } from 'gatsby';
 
@@ -28,7 +28,7 @@ const FavoritesPage = () => {
     setFavorites(favoriteCookies ? JSON.parse(favoriteCookies) : []);
   }, []);
 
-  const slots = fetchSlots();
+  const slots = FetchSlots();
   const allCollections = slots.filter(({ date, start, time, title }) =>
     isActive(`${date}_${start || time}_${title}`),
   );

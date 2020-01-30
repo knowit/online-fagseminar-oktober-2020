@@ -45,7 +45,7 @@ VillageMarkdown.propTypes = {
 
 export default VillageMarkdown;
 
-export const pageQuery = graphql`
+export const PageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html

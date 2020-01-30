@@ -8,12 +8,12 @@ import colors from '../util/colors';
 import HeaderTwoWithIcon from './HeaderTwoWithIcon';
 import Slots from './Slot/Slots';
 import { eventData } from '../json';
-import { fetchSlots } from '../graphql/airtable';
+import { FetchSlots } from '../graphql/airtable';
 
 const NextUp = () => {
   const today = new Date();
   const [slots, setSlots] = useState([]);
-  const newSlots = fetchSlots();
+  const newSlots = FetchSlots();
   useEffect(() => {
     setSlots(newSlots);
   }, []);

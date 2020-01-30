@@ -14,7 +14,7 @@ import DefaultLayout from '../layouts';
 import colors from '../util/colors';
 import mediaQueries from '../util/mediaQueries';
 import spacing from '../util/spacing';
-import { fetchSlots } from '../graphql/airtable';
+import { FetchSlots } from '../graphql/airtable';
 import { filterTypes } from '../components/Filters/Filters';
 import ViewTypes from '../components/ViewTypes';
 
@@ -108,11 +108,11 @@ const SchedulePage = ({ location }) => {
   );
   const activeDay = dayInUrl || getActiveDay();
 
-  const fetchedSlots = fetchSlots();
+  const FetchedSlots = FetchSlots();
 
   useEffect(() => {
     setActiveFilters(filterTypes.map(filter => filter.type));
-    setSlots(fetchedSlots);
+    setSlots(FetchedSlots);
   }, []);
 
   useEffect(() => {

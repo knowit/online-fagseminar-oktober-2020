@@ -12,6 +12,10 @@ Run prettier to pretify the code.
 yarn prettier
 ```
 
+## Configure secrets
+The project uses airtable.com as backend. The following environment-variable should be set to build:
+* AIRTABLE_API_KEY
+
 ## Install gatsby
 
 ```sh

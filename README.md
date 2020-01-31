@@ -36,11 +36,7 @@ To build, run:
 yarn build
 ```
 
-To deploy, run (when pushing to master, the application is automatically deployed):
-
-```
-yarn deploy
-```
+When pushing to master, the application is automatically deployed.
 
 **Important libraries used:**
 

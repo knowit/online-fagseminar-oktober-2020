@@ -1,5 +1,6 @@
 /* Environment variables:
- * TRAVIS_API_TOKEN
+ * TRAVIS_API_TOKEN in SSM
+ * SLACK_AUTH_TOKEN in SSM
  * TRAVIS_REPO_SLUG (%2F separated, e.g. ftes%2Fsongbook-latex)
  */
 
@@ -23,6 +24,15 @@ const options = {
 }
 
 exports.build = (event, context, callback) => {
+    // Verify Slack-token
+    // Convert from URL-params to JSON (Slack commands are like that)
+    const body = JSON.parse('{"' + decodeURI(event.body.replace(/&/g, "\",\"").replace(/=/g,"\":\"")) + '"}')
+    if (body.token != `${process.env.SLACK_AUTH_TOKEN}`) {
+        callback(null, {
+            statusCode: 401}) // Unauthorized
+    }
+
+    // Call the Travis-api
     var req = https.request(options, (res) => {
         console.log('Got response: ' + res.statusCode);
         res.setEncoding('utf8');

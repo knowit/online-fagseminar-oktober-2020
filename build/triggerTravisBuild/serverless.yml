@@ -91,6 +91,7 @@ functions:
     environment:
       TRAVIS_REPO_SLUG: knowit%2Fsundvolden.knowit.no
       TRAVIS_API_TOKEN: ${ssm:TRAVIS_API_TOKEN~true}
+      SLACK_AUTH_TOKEN: ${ssm:SLACK_AUTH_TOKEN~true}
 
 # you can add CloudFormation resource templates here
 #resources:

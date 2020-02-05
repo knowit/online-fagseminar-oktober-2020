@@ -40,7 +40,7 @@ To build, run:
 yarn build
 ```
 
-When pushing to master, the application is automatically deployed.
+When pushing to master, the application is automatically deployed. Or you can look under the build-directory for the code to an AWS Lambda that triggers a Travis-build on master. Implemented with the serverless framework. The lambda is triggered by a Slash-command (https://api.slack.com/interactivity/slash-commands) from Slack.
 
 **Important libraries used:**
 

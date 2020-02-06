@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 export const FetchSlots = () => {
   const data = useStaticQuery(graphql`
     query data {
-      allAirtable {
+      allAirtable (filter: {data: {userIds: {ne: "Dummy"}}}) {
         edges {
           node {
             data {

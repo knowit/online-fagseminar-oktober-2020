@@ -20,8 +20,8 @@ const StyledNavigation = styled.div`
   color: white;
   justify-content: center;
   display: grid;
-  grid-column-gap: ${spacing.normal};
-  grid-template-columns: repeat(3, ${spacing.spacingUnit * 6}px [col-start]);
+  grid-column-gap: ${spacing.large};
+  grid-template-columns: repeat(3, auto [col-start]);
 `;
 
 const StyledPushElement = styled.div`

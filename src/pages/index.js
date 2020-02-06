@@ -7,10 +7,10 @@ import CodeOfConduct from '../components/CodeOfConduct';
 import Layout from '../layouts';
 import colors from '../util/colors';
 import ContentSection from '../components/ContentSection';
-import PrahaLogo from '../components/Icons/PrahaLogo';
 import spacing from '../util/spacing';
 import mediaQueries from '../util/mediaQueries';
 import NextUp from '../components/NextUp';
+import KnowitSvg from '../components/Icons/KnowitSvg';
 
 const StyledLogoContainer = styled.div`
   text-align: center;
@@ -25,6 +25,7 @@ const Frontpage = () => (
     <Content>
       <ContentSection backgroundColor={colors.blueDark} color="white">
         <StyledLogoContainer>
+          <KnowitSvg />
           <Paragraph color="white">
             {eventData.startDate} - {eventData.endDate} {eventData.year}
           </Paragraph>

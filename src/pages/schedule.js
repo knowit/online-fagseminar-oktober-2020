@@ -23,8 +23,8 @@ const buttonGroupStyle = numberOfButtons => css`
   margin-bottom: 0;
   grid-template-columns: 100%;
   grid-template-rows: ${spacing.xlarge};
-  grid-template-columns: 25% 25% 25% 25%;
-  width: 80%;
+  grid-template-columns: 50% 50%;
+  width: 50%;
   grid-template-rows: auto;
 
   @media (${mediaQueries.medium}) {

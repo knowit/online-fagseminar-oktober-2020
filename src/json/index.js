@@ -32,7 +32,7 @@ export const eventData = {
     'Palma',
     'Ljubljana',
     'Strømstad',
-    'Praha'
+    'Praha',
   ],
 };
 

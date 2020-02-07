@@ -40,7 +40,7 @@ const Frontpage = () => (
         </h1>
         <Paragraph>
           {`Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte
-          selv som lager programmet. ${eventData.season.longCapitalized} ${eventData.year} vil den bli avholdt ${eventData.startDate} -
+          selv som lager programmet. På dette seminaret vil også noen fra Amende delta. ${eventData.season.longCapitalized} ${eventData.year} vil den bli avholdt ${eventData.startDate} -
           ${eventData.endDate} ${eventData.year} i ${eventData.city}, ${eventData.country}.`}
         </Paragraph>
         <Paragraph>

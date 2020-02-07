@@ -16,7 +16,7 @@ yarn prettier
 The project uses airtable.com as backend. The following environment-variable should be set to build:
 * AIRTABLE_API_KEY
 
-Because of a limitation in the airtable-plugin til react, a dummy-row should be populated with all fields (usersIds = 'Dummy'. This row is filtered out by the graphql-call, see [src/graphql/airtable.js](airtable.js)
+Because of a limitation in the airtable-plugin, a dummy-row should be populated with all fields (usersIds = 'Dummy'. This row is filtered out by the graphql-call, see [src/graphql/airtable.js](airtable.js)
 
 
 ## Install gatsby

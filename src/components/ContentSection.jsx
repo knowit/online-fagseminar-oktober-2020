@@ -8,12 +8,11 @@ import mediaQueries from '../util/mediaQueries';
 
 const StyledSection = styled.div`
   background-color: ${p => p.backgroundColor || colors.blueLighest};
-  min-height: ${p => p.minHeight || '50vh'};
+  min-height: ${p => p.minHeight};
   color: ${p => p.color || colors.blueDark};
 `;
 const StyledInnerSection = styled.div`
   padding: 1rem 15%;
-  min-height: ${p => p.minHeight || '50vh'};
   @media (${mediaQueries.xxlarge}) {
     padding: 0 20%;
   }

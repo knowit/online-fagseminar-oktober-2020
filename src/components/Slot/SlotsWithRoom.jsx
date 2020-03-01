@@ -57,7 +57,6 @@ const SlotsWithRoom = ({ slot, date, favorites, setFavorites, viewType }) => {
       }
       return 0;
     });
-
   return (
     <>
       {sortedRoomsByLength.map((room, index) => {

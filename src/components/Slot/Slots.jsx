@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import groupBy from 'lodash/groupBy';
+import { isWithinInterval, parseISO } from 'date-fns';
 import styled from '@emotion/styled';
 import Slot from '.';
 import { getCookie, setCookie } from '../../util/cookieHelper';
@@ -10,12 +11,33 @@ import mediaQueries from '../../util/mediaQueries';
 import SlotsWithRoom from './SlotsWithRoom';
 
 const groupSlots = {
-  19: [
-    { start: '13:00', end: '13:30' },
-    { start: '13:45', end: '14:15' },
+  27: [
+    { start: '14:00', end: '14:30' },
     { start: '14:30', end: '15:00' },
-    { start: '15:15', end: '15:45' },
+    { start: '15:20', end: '17:30' },
   ],
+  28: [
+    { start: '09:00', end: '10:30' },
+    { start: '10:50', end: '11:50' },
+    { start: '11:45', end: '12:15' },
+  ],
+};
+
+const isTimeBetween = (time, start, end, d) => {
+  const splittedStart = start.split(':');
+  const startTime = new Date();
+  startTime.setHours(splittedStart[0]);
+  startTime.setMinutes(splittedStart[1]);
+
+  const splittedEnd = end.split(':');
+  const endTime = new Date();
+  endTime.setHours(splittedEnd[0]);
+  endTime.setMinutes(splittedEnd[1]);
+
+  const timeToCheck = new Date();
+  timeToCheck.setHours(time.split(':')[0]);
+  timeToCheck.setMinutes(time.split(':')[1]);
+  return isWithinInterval(timeToCheck, { start: startTime, end: endTime });
 };
 
 const slotsMappedByRoom = (activeDay, slots) => {
@@ -25,8 +47,13 @@ const slotsMappedByRoom = (activeDay, slots) => {
   }
   let newSlots = [];
   slots.forEach(slot => {
-    const foundGroupStart = groups.find(group => group.start === slot.start);
+    const foundGroupStart = groups.find(
+      group =>
+        group.start === slot.start ||
+        isTimeBetween(slot.start, group.start, group.end, slot.userIds),
+    );
     const foundGroupEnd = groups.find(group => group.end === slot.end);
+
     if (slot.type !== 'other' && (foundGroupStart || foundGroupEnd)) {
       const start = foundGroupStart
         ? foundGroupStart.start

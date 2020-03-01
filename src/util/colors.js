@@ -34,4 +34,6 @@ export default {
   grey: '#8b98a4',
   yellow: '#ffff70',
   heartRed: '#e95971',
+  purple: '#cb3eb4',
+  orange: '#f3977c',
 };

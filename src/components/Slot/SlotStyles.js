@@ -8,6 +8,8 @@ export const typeColors = {
   other: colors.blueDark,
   talk: colors.green,
   keynote: colors.blue,
+  workshop: colors.purple,
+  selfservice: colors.orange,
 };
 
 const gridTemplates = {
@@ -162,7 +164,8 @@ const getSlotGridStyle = (type, viewType, isMobile = false) => {
   const desktopOrMobile =
     viewType === 'column' || isMobile ? 'mobile' : 'desktop';
   if (type) {
-    return gridTemplates[type][desktopOrMobile];
+    const template = gridTemplates[type] || gridTemplates.talk;
+    return template[desktopOrMobile];
   }
   return gridTemplates.other[desktopOrMobile];
 };

@@ -62,7 +62,7 @@ const SlotsWithRoom = ({ slot, date, favorites, setFavorites, viewType }) => {
       {sortedRoomsByLength.map((room, index) => {
         return (
           <StyledSlotWithRooms key={`room_${index}`} viewType={viewType}>
-            <h3>{room.roomKey}</h3>
+            <h3>{room.roomKey || 'Lokasjon ukjent'}</h3>
             {room.slots.map(subSlot => (
               <StyledSlotGridWrapper viewType={viewType}>
                 <StyledType type={subSlot.type} viewType={viewType} />

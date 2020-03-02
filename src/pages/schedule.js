@@ -101,7 +101,7 @@ const SchedulePage = ({ location }) => {
     filterTypes.map(filter => filter.type),
   );
   const [slots, setSlots] = useState([]);
-  const [viewType, setViewType] = useState('row');
+  const [viewType, setViewType] = useState('column');
 
   const dayInUrl = viewmodel.days.find(
     scheduleDay => scheduleDay.date === location.hash.substring(1),

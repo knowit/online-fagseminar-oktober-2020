@@ -92,7 +92,7 @@ const getColumnStyle = viewType => {
   if (viewType === 'column') {
     return css`
       align-items: baseline;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
 
       & > * {
         flex: 1 28%;

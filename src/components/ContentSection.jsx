@@ -12,7 +12,7 @@ const StyledSection = styled.div`
   color: ${p => p.color || colors.blueDark};
 `;
 const StyledInnerSection = styled.div`
-  padding: 1rem 15%;
+  padding: 1rem 2%;
   @media (${mediaQueries.xxlarge}) {
     padding: 0 20%;
   }

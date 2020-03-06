@@ -3,12 +3,12 @@ import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
-import Button from '../Button';
+import Button from './Button';
 import css from '@emotion/css';
-import colors from '../../util/colors';
-import spacing from '../../util/spacing';
+import colors from '../util/colors';
+import spacing from '../util/spacing';
 import styled from '@emotion/styled';
-import mediaQueries from '../../util/mediaQueries';
+import mediaQueries from '../util/mediaQueries';
 import Close from '@material-ui/icons/Close';
 
 const useStyles = makeStyles(theme => ({
@@ -37,7 +37,7 @@ const StyledModal = styled.div`
   }
 `;
 
-const SpeakerModal = ({ children, buttonText }) => {
+const CustomModal = ({ children, buttonText }) => {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
 
@@ -94,4 +94,4 @@ const SpeakerModal = ({ children, buttonText }) => {
   );
 };
 
-export default SpeakerModal;
+export default CustomModal;

@@ -132,6 +132,7 @@ const SchedulePage = ({ location }) => {
     setActiveFilters(updatedActiveFilters);
   };
 
+  const isColumn = viewType === 'column';
   return (
     <DefaultLayout>
       <Content>
@@ -156,7 +157,11 @@ const SchedulePage = ({ location }) => {
             ))}
           </ButtonGroup>
         </ContentSection>
-        <ContentSection minHeight="95vh" withTopSeperator withBottomSeperator>
+        <ContentSection
+          minHeight="95vh"
+          withTopSeperator
+          withBottomSeperator
+          innerPadding={isColumn ? '5%' : undefined}>
           <StyledContentChangers>
             <Filters
               activeFilters={activeFilters}

@@ -1,10 +1,11 @@
 import React from 'react';
-import Speaker, { SpeakerModal } from '../Speaker';
+import Speaker from '../Speaker';
+import Modal from '../Modal';
 
 const SlotSpeakers = ({ slot }) => (
-  <SpeakerModal buttonText={slot.userIds}>
+  <Modal buttonText={slot.userIds}>
     <Speaker slot={slot} />
-  </SpeakerModal>
+  </Modal>
 );
 
 export default SlotSpeakers;

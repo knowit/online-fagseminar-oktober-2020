@@ -14,7 +14,7 @@ const StyledSection = styled.div`
 const StyledInnerSection = styled.div`
   padding: 1rem 2%;
   @media (${mediaQueries.xxlarge}) {
-    padding: 0 20%;
+    padding: 0 ${p => p.innerPadding || '20%'};
   }
 
   @media (${mediaQueries.medium}) {
@@ -29,6 +29,7 @@ const ContentSection = ({
   nextSectionColor,
   minHeight,
   children,
+  innerPadding,
   ...rest
 }) => {
   return (
@@ -41,7 +42,7 @@ const ContentSection = ({
             position="top"
           />
         )}
-        <StyledInnerSection minHeight={minHeight}>
+        <StyledInnerSection minHeight={minHeight} innerPadding={innerPadding}>
           {children}
         </StyledInnerSection>
         {withBottomSeperator && (
@@ -67,6 +68,7 @@ ContentSection.propTypes = {
   previousSectionColor: PropTypes.string,
   nextSectionColor: PropTypes.string,
   minHeight: PropTypes.string,
+  innerPadding: PropTypes.string,
 };
 
 export default ContentSection;

@@ -18,7 +18,7 @@ const groupSlots = {
   ],
   28: [
     { start: '09:00', end: '10:30' },
-    { start: '10:50', end: '11:50' },
+    { start: '10:50', end: '11:30' },
     { start: '11:45', end: '12:15' },
   ],
 };
@@ -91,7 +91,7 @@ const slotsMappedByRoom = (activeDay, slots) => {
 const getColumnStyle = viewType => {
   if (viewType === 'column') {
     return css`
-      align-items: baseline;
+      align-items: stretch;
       flex-wrap: nowrap;
 
       & > * {

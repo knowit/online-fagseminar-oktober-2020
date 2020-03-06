@@ -10,7 +10,7 @@ const SlotDescription = ({ description }) => {
   }
   return (
     <StyledDescription>
-      <Modal buttonText="Se beksrivelse">
+      <Modal buttonText="Se beskrivelse">
         <div
           css={css`
             display: inline-block;

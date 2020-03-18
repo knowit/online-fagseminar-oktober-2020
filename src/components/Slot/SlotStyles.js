@@ -173,6 +173,7 @@ const getSlotGridStyle = (type, viewType, isMobile = false) => {
 export const StyledSlotGrid = styled.div`
   display: grid;
   grid-area: allContent;
+  grid-row-end: span 5;
   padding: ${spacing.normal};
   grid-row-gap: ${p => p.rowGap || spacing.small};
   ${p => getSlotGridStyle(p.type, p.viewType, false)};

@@ -43,6 +43,18 @@ const Slot = ({ slot, date, favorites, setFavorites, viewType }) => {
             {slot.duration ? `${slot.duration} minutter` : 'Ikke oppgitt'}
           </StyledDuration>
         )}
+        {slot.description && (
+          <StyledDescription>
+            <div
+              css={css`
+                display: inline-block;
+              `}
+              dangerouslySetInnerHTML={{
+                __html: slot.description,
+              }}
+            />
+          </StyledDescription>
+        )}
         <StyledFavorite>
           <AddFavorite
             title={slot.title}

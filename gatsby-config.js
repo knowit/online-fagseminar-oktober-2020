@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Knowit Sundvolden 2020',
+    title: 'Knowit Online Fagseminar Sommer 2020',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

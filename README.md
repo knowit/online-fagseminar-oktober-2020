@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/knowit/sundvolden.knowit.no.svg?branch=master)](https://travis-ci.org/knowit/sundvolden.knowit.no)
+[![Build Status](https://travis-ci.org/knowit/ofs2020.knowit.no.svg?branch=master)](https://travis-ci.org/knowit/ofs2020.knowit.no)
 
-# Knowit Sundvolden
+# Knowit Online Fagseminar Sommer 2020
 
 Created with [Gatsby](https://www.gatsbyjs.org/).
 

@@ -7,18 +7,16 @@ const season = {
   long: 'våren',
   longCapitalized: 'Våren',
 };
-const startDate = '27. mars';
-const endDate = '28. mars';
+const startDate = '18. juni';
+const endDate = '18. juni';
 
 export const eventData = {
-  date: `${startDate} - ${endDate} ${year}`,
-  longDate: `${startDate} - ${endDate} ${year}`,
-  venue: 'Sundvolden hotell',
-  adress: 'Dronningveien 2, 3531 Krokkleiva',
-  city: 'Sundvolden',
+  date: `${startDate} ${year}`,
+  longDate: `${startDate} ${year}`,
+  city: 'Online',
   country: 'Norway',
   year,
-  monthNumber: 3,
+  monthNumber: 6,
   season,
   startDate,
   endDate,
@@ -50,13 +48,9 @@ const viewmodel = {
   },
   days: [
     {
-      date: '27',
-      label: 'Fredag 27.03',
-    },
-    {
-      date: '28',
-      label: 'Lørdag 28.03',
-    },
+      date: '18',
+      label: 'Torsdag 18.06',
+    }
   ],
   schedules: [],
   talks: {},

@@ -21,7 +21,7 @@ const StyledLogoContainer = styled.div`
 `;
 
 const Frontpage = () => (
-  <Layout showGoogleMaps>
+  <Layout>
     <Content>
       <ContentSection backgroundColor={colors.blueDark} color="white">
         <StyledLogoContainer>

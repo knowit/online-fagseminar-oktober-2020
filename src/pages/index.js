@@ -20,7 +20,6 @@ const StyledLogoContainer = styled.div`
   }
 `;
 
-// <SundvoldenLogo />
 const Frontpage = () => (
   <Layout showGoogleMaps>
     <Content>

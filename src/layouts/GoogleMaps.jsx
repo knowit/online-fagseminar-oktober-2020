@@ -49,13 +49,13 @@ const GoogleMaps = () => {
       <StyleGoogleMapsContent>
         <h1>Lokasjon</h1>
         <a
-          href="https://www.sundvolden.no/"
+          href="https://www.knowit.no/"
           target="_blank"
           rel="noopener noreferrer">
           <h3>{viewmodel.event.venue}</h3>
         </a>
         <a
-          href="https://g.page/Sundvolden?share"
+          href="https://goo.gl/maps/EY3QWyA5RDWZJJLr6"
           target="_blank"
           rel="noopener noreferrer">
           <h3>{viewmodel.event.adress}</h3>

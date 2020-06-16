@@ -30,7 +30,7 @@ const StyledPushElement = styled.div`
 `;
 
 const routes = [
-  { to: '/', title: 'Sundvolden 2020' },
+  { to: '/', title: 'Online 2020' },
   { to: '/schedule', title: 'Program' },
   { to: '/favorites', title: 'Favoritter' },
 ];

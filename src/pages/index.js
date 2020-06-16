@@ -41,14 +41,9 @@ const Frontpage = () => (
           Fagseminar {eventData.season.longCapitalized} {eventData.year}
         </h1>
         <Paragraph>
-          <h3>
-            På grunn av Coronavirus-utbruddet er dette fagseminaret utsatt
-            inntil videre.
-          </h3>
-          <br />
-          <br />
+          <h3>På grunn av Coronavirus-utbruddet holder vi dette fagseminaret online!</h3><br/><br/>
           {`Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte
-          selv som lager programmet. På dette seminaret skulle også noen fra Amende delta. 
+          selv som lager programmet.
           ${eventData.season.longCapitalized} ${eventData.year} skulle det vært avholdt ${eventData.startDate} -
           ${eventData.endDate} ${eventData.year} i ${eventData.city}, ${eventData.country}.`}
         </Paragraph>

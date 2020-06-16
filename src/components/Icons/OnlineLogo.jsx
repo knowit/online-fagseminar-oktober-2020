@@ -11,7 +11,7 @@ const StyledLogoContainer = styled.div`
 const OnlineLogo = () => {
   return (
     <StyledLogoContainer>
-      <OnlineSvg />
+      <img src={OnlineSvg} />
     </StyledLogoContainer>
   );
 };

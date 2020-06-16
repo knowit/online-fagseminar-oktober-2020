@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-16 -16 912 1102">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="2842171e-20 0 880.0024 1215.5" width="880.0024" height="1215.5">
   <defs>
+    <font-face font-family="Arial Black" font-size="104" panose-1="2 11 10 4 2 1 2 2 2 4" units-per-em="1000" underline-position="-125" underline-thickness="60.058594" slope="0" x-height="524.41406" cap-height="721.6797" ascent="1100.586" descent="-309.5703" font-weight="800">
+      <font-face-src>
+        <font-face-name name="Arial-Black"/>
+      </font-face-src>
+    </font-face>
     <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#f6973f"/>
       <stop offset=".51177794" stop-color="#d16e8d"/>
       <stop offset="1" stop-color="#a946ce"/>
     </linearGradient>
     <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(324.9563 109.53316) rotate(59) scale(446.7432)"/>
-    <font-face font-family="Arial" font-size="140" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="700">
+    <font-face font-family="Arial" font-size="320" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="700">
       <font-face-src>
         <font-face-name name="Arial-BoldMT"/>
       </font-face-src>
     </font-face>
-    <font-face font-family="Arial" font-size="320" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="700">
+    <font-face font-family="Arial" font-size="140" panose-1="2 11 7 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-105.95703" underline-thickness="104.98047" slope="0" x-height="518.5547" cap-height="715.8203" ascent="905.2734" descent="-211.91406" font-weight="700">
       <font-face-src>
         <font-face-name name="Arial-BoldMT"/>
       </font-face-src>
@@ -23,39 +28,14 @@
         <font-face-name name="Arial-BoldMT"/>
       </font-face-src>
     </font-face>
-    <font-face font-family="Arial Black" font-size="104" panose-1="2 11 10 4 2 1 2 2 2 4" units-per-em="1000" underline-position="-125" underline-thickness="60.058594" slope="0" x-height="524.41406" cap-height="721.6797" ascent="1100.586" descent="-309.5703" font-weight="800">
-      <font-face-src>
-        <font-face-name name="Arial-Black"/>
-      </font-face-src>
-    </font-face>
   </defs>
+  <metadata> Produced by OmniGraffle 7.16 
+    <dc:date>2020-06-16 11:44:45 +0000</dc:date>
+  </metadata>
   <g id="Canvas_1" fill="none" stroke="none" stroke-dasharray="none" fill-opacity="1" stroke-opacity="1">
     <title>Canvas 1</title>
     <g id="Canvas_1: Layer 1">
       <title>Layer 1</title>
-      <g id="Graphic_12">
-        <path d="M 671.0481 95.70311 C 798.65245 223.30683 798.65245 430.19317 671.0481 557.7969 C 543.44436 685.40126 336.55803 685.40126 208.9543 557.7969 C 81.34994 430.19317 81.34994 223.30683 208.9543 95.70311 C 336.55803 -31.901256 543.44436 -31.901256 671.0481 95.70311" fill="#10193a"/>
-        <path d="M 671.0481 95.70311 C 798.65245 223.30683 798.65245 430.19317 671.0481 557.7969 C 543.44436 685.40126 336.55803 685.40126 208.9543 557.7969 C 81.34994 430.19317 81.34994 223.30683 208.9543 95.70311 C 336.55803 -31.901256 543.44436 -31.901256 671.0481 95.70311" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
-      </g>
-      <g id="Graphic_8">
-        <path d="M 225.0012 175 L 655.0012 175 C 659.97176 175 664.0012 179.02944 664.0012 184 L 664.0012 418 C 664.0012 422.97056 659.97176 427 655.0012 427 L 225.0012 427 C 220.03063 427 216.0012 422.97056 216.0012 418 L 216.0012 184 C 216.0012 179.02944 220.03063 175 225.0012 175 Z" fill="url(#Obj_Gradient)"/>
-        <path d="M 225.0012 175 L 655.0012 175 C 659.97176 175 664.0012 179.02944 664.0012 184 L 664.0012 418 C 664.0012 422.97056 659.97176 427 655.0012 427 L 225.0012 427 C 220.03063 427 216.0012 422.97056 216.0012 418 L 216.0012 184 C 216.0012 179.02944 220.03063 175 225.0012 175 Z" stroke="#f1f0ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
-      </g>
-      <g id="Graphic_5">
-        <text transform="translate(385.55295 195)" fill="#f1f0ed">
-          <tspan font-family="Arial" font-size="140" font-weight="700" fill="#f1f0ed" x="0" y="127">O</tspan>
-        </text>
-      </g>
-      <g id="Graphic_7">
-        <text transform="translate(238.22532 284.5)" fill="#f1f0ed">
-          <tspan font-family="Arial" font-size="320" font-weight="700" fill="#f1f0ed" x="77.32275" y="290">O</tspan>
-        </text>
-      </g>
-      <g id="Graphic_6">
-        <text transform="translate(513.41477 223.80151)" fill="#f1f0ed">
-          <tspan font-family="Arial" font-size="91" font-weight="700" fill="#f1f0ed" x="0" y="82">F</tspan>
-        </text>
-      </g>
       <g id="Group_14">
         <title>Elementer</title>
         <g id="Graphic_21">
@@ -81,16 +61,43 @@
         </g>
       </g>
       <g id="Graphic_23">
-        <text transform="translate(10.225316 923.5)" fill="#f1f0ed">
-          <tspan font-family="Arial Black" font-size="104" font-weight="800" fill="#f1f0ed" x="120.64502" y="114">O N L I N E</tspan>
+        <text transform="translate(129.11385 923.5)" fill="#f1f0ed">
+          <tspan font-family="Arial Black" font-size="104" font-weight="800" fill="#f1f0ed" x="1.7564697" y="114">O N L I N E</tspan>
         </text>
       </g>
-      <g id="Graphic_9">
-        <rect x="299.05295" y="435.5" width="291" height="144.5" fill="#10193a"/>
-        <rect x="299.05295" y="435.5" width="291" height="144.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
-      </g>
-      <g id="Line_11">
-        <line x1="306.0012" y1="461" x2="574.0012" y2="461" stroke="#f1f0ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+      <g id="Group_29">
+        <g id="Graphic_12">
+          <path d="M 671.0481 95.70311 C 798.65245 223.30683 798.65245 430.19317 671.0481 557.7969 C 543.44436 685.40126 336.55803 685.40126 208.9543 557.7969 C 81.34994 430.19317 81.34994 223.30683 208.9543 95.70311 C 336.55803 -31.901256 543.44436 -31.901256 671.0481 95.70311" fill="#10193a"/>
+          <path d="M 671.0481 95.70311 C 798.65245 223.30683 798.65245 430.19317 671.0481 557.7969 C 543.44436 685.40126 336.55803 685.40126 208.9543 557.7969 C 81.34994 430.19317 81.34994 223.30683 208.9543 95.70311 C 336.55803 -31.901256 543.44436 -31.901256 671.0481 95.70311" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+        </g>
+        <g id="Group_28">
+          <g id="Graphic_8">
+            <path d="M 225.0012 175 L 655.0012 175 C 659.97176 175 664.0012 179.02944 664.0012 184 L 664.0012 418 C 664.0012 422.97056 659.97176 427 655.0012 427 L 225.0012 427 C 220.03063 427 216.0012 422.97056 216.0012 418 L 216.0012 184 C 216.0012 179.02944 220.03063 175 225.0012 175 Z" fill="url(#Obj_Gradient)"/>
+            <path d="M 225.0012 175 L 655.0012 175 C 659.97176 175 664.0012 179.02944 664.0012 184 L 664.0012 418 C 664.0012 422.97056 659.97176 427 655.0012 427 L 225.0012 427 C 220.03063 427 216.0012 422.97056 216.0012 418 L 216.0012 184 C 216.0012 179.02944 220.03063 175 225.0012 175 Z" stroke="#f1f0ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+          </g>
+          <g id="Graphic_7">
+            <text transform="translate(238.22532 284.5)" fill="#f1f0ed">
+              <tspan font-family="Arial" font-size="320" font-weight="700" fill="#f1f0ed" x="77.32275" y="290">O</tspan>
+            </text>
+          </g>
+          <g id="Graphic_5">
+            <text transform="translate(385.55295 195)" fill="#f1f0ed">
+              <tspan font-family="Arial" font-size="140" font-weight="700" fill="#f1f0ed" x="0" y="127">O</tspan>
+            </text>
+          </g>
+          <g id="Graphic_6">
+            <text transform="translate(513.41477 223.80151)" fill="#f1f0ed">
+              <tspan font-family="Arial" font-size="91" font-weight="700" fill="#f1f0ed" x="0" y="82">F</tspan>
+            </text>
+          </g>
+          <g id="Graphic_9">
+            <rect x="299.05295" y="435.5" width="291" height="144.5" fill="#10193a"/>
+            <rect x="299.05295" y="435.5" width="291" height="144.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"/>
+          </g>
+          <g id="Line_11">
+            <line x1="306.0012" y1="461" x2="574.0012" y2="461" stroke="#f1f0ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+          </g>
+        </g>
       </g>
     </g>
   </g>

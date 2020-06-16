@@ -10,7 +10,7 @@ import ContentSection from '../components/ContentSection';
 import spacing from '../util/spacing';
 import mediaQueries from '../util/mediaQueries';
 import NextUp from '../components/NextUp';
-import SundvoldenLogo from '../components/Icons/SundvoldenLogo';
+import OnlineLogo from '../components/Icons/OnlineLogo';
 
 const StyledLogoContainer = styled.div`
   text-align: center;
@@ -25,9 +25,9 @@ const Frontpage = () => (
     <Content>
       <ContentSection backgroundColor={colors.blueDark} color="white">
         <StyledLogoContainer>
-          <SundvoldenLogo />
+          <OnlineLogo />
           <Paragraph color="white">
-            {eventData.startDate} - {eventData.endDate} {eventData.year}
+            {eventData.startDate}, {eventData.year}
           </Paragraph>
         </StyledLogoContainer>
       </ContentSection>

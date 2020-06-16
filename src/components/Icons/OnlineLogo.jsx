@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import OnlineSvg from './svg/online_fagseminar.svg';
 
 const StyledLogoContainer = styled.div`
-  svg {
+  img {
     width: 30%;
   }
 `;

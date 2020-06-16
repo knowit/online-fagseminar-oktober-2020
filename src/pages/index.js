@@ -10,7 +10,6 @@ import ContentSection from '../components/ContentSection';
 import spacing from '../util/spacing';
 import mediaQueries from '../util/mediaQueries';
 import NextUp from '../components/NextUp';
-// import SundvoldenLogo from '../components/Icons/SundvoldenLogo';
 import OnlineLogo from '../components/Icons/OnlineLogo';
 
 const StyledLogoContainer = styled.div`

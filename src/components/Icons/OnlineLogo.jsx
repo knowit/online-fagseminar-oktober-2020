@@ -5,7 +5,10 @@ import OnlinePng from './png/online_fagseminar.png';
 
 const StyledLogoContainer = styled.div`
   img {
-    width: 30vw;
+    width: auto;
+    height: auto;
+    max-width: 33vw;
+    min-width: 240px;
   }
 `;
 

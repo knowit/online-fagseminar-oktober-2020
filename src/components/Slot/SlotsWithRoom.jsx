@@ -125,7 +125,7 @@ const SlotsWithRoom = ({ slot, date, favorites, setFavorites, viewType }) => {
                         <StyledRoomIcon>
                           <Home fontSize="small" />
                         </StyledRoomIcon>
-                        <StyledRoomLabel>Rom:</StyledRoomLabel>
+                        <StyledRoomLabel>Track:</StyledRoomLabel>
                         <StyledRoomName>{subSlot.room}</StyledRoomName>
                       </StyledRoom>
                     )}

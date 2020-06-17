@@ -81,7 +81,11 @@ const Slot = ({ slot, date, favorites, setFavorites, viewType }) => {
               <Home fontSize="small" />
             </StyledRoomIcon>
             <StyledRoomLabel>Track:</StyledRoomLabel>
-            <StyledRoomName>{slot.room}</StyledRoomName>
+            <StyledRoomName>
+              <a href={slot.meet_link} alt="Google meet link for track">
+                {slot.room} - Google Meet Link
+              </a>
+            </StyledRoomName>
           </StyledRoom>
         )}
       </StyledSlotGrid>

@@ -239,6 +239,11 @@ export const StyledRoomIcon = styled.div`
 `;
 export const StyledRoomName = styled.b`
   grid-area: roomName;
+  a {
+    color: rgb(49, 119, 248);
+    text-decoration: underline;
+    font-weight: normal;
+  }
 `;
 
 export const StyledDescription = styled.div`

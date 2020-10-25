@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/knowit/ofs2020.knowit.no.svg?branch=master)](https://travis-ci.org/knowit/ofs2020.knowit.no)
+[![Build Status](https://travis-ci.org/knowit/online-fagseminar-oktober-2020.svg?branch=master)](https://travis-ci.org/knowit/online-fagseminar-oktober-2020)
 
-# Knowit Online Fagseminar Sommer 2020
+# Knowit Online Fagseminar Høst 2020
 
 Created with [Gatsby](https://www.gatsbyjs.org/).
 

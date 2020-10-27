@@ -2,13 +2,13 @@ export const villages = [];
 
 const year = '2020';
 const season = {
-  short: 'vår',
-  shortCapitalized: 'Vår',
-  long: 'våren',
-  longCapitalized: 'Våren',
+  short: 'høst',
+  shortCapitalized: 'Høst',
+  long: 'høsten',
+  longCapitalized: 'Høsten',
 };
-const startDate = '18. juni';
-const endDate = '18. juni';
+const startDate = '29. oktober';
+const endDate = '29. oktober';
 
 export const eventData = {
   date: `${startDate} ${year}`,
@@ -16,7 +16,7 @@ export const eventData = {
   city: 'Online',
   country: 'Norway',
   year,
-  monthNumber: 6,
+  monthNumber: 10,
   season,
   startDate,
   endDate,
@@ -48,8 +48,8 @@ const viewmodel = {
   },
   days: [
     {
-      date: '18',
-      label: 'Torsdag 18.06',
+      date: '29',
+      label: 'Torsdag 29.10',
     }
   ],
   schedules: [],

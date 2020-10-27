@@ -7,9 +7,8 @@ import spacing from '../../util/spacing';
 export const typeColors = {
   other: colors.blueDark,
   talk: colors.green,
-  keynote: colors.blue,
+  lightningTalk: colors.blue,
   workshop: colors.purple,
-  selfservice: colors.orange,
 };
 
 const gridTemplates = {
@@ -35,7 +34,7 @@ const gridTemplates = {
         'room        room';
     `,
   },
-  keynote: {
+  lightningTalk: {
     desktop: css`
       grid-template-rows: auto;
       grid-template-columns: 10% 80% 10%;

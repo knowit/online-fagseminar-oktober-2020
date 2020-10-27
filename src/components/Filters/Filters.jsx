@@ -9,9 +9,8 @@ import mediaQueries from '../../util/mediaQueries';
 
 export const filterTypes = [
   { label: 'Felles', type: 'other' },
-  { label: 'Keynote', type: 'keynote' },
+  { label: 'Lyntale', type: 'lightningTalk' },
   { label: 'Foredrag', type: 'talk' },
-  { label: 'Selvbetjent', type: 'selfservice' },
   { label: 'Workshop', type: 'workshop' },
 ];
 

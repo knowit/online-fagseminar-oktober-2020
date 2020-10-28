@@ -42,8 +42,8 @@ const Frontpage = () => (
           <h3>På grunn av Coronavirus-utbruddet holder vi dette fagseminaret online!</h3><br/><br/>
           {`Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte
           selv som lager programmet.
-          ${eventData.season.longCapitalized} ${eventData.year} skulle det vært avholdt ${eventData.startDate} -
-          ${eventData.endDate} ${eventData.year} i ${eventData.city}, ${eventData.country}.`}
+          ${eventData.season.longCapitalized} ${eventData.year} skulle det vært avholdt ${eventData.cancelledEventStartDate} -
+          ${eventData.cancelledEventEndDate} ${eventData.year} i ${eventData.cancelledEventCity}, ${eventData.cancelledEventCountry}.`}
         </Paragraph>
         <Paragraph>
           {`Tidligere har vi besøkt ${eventData.cities.join(', ')} etc.`}

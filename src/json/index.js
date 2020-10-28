@@ -10,6 +10,11 @@ const season = {
 const startDate = '29. oktober';
 const endDate = '29. oktober';
 
+const cancelledEventStartDate = '15. oktober';
+const cancelledEventEndDate = '18. oktober';
+const cancelledEventCity = 'Roma';
+const cancelledEventCountry = 'Italia';
+
 export const eventData = {
   date: `${startDate} ${year}`,
   longDate: `${startDate} ${year}`,
@@ -20,6 +25,10 @@ export const eventData = {
   season,
   startDate,
   endDate,
+  cancelledEventStartDate,
+  cancelledEventEndDate,
+  cancelledEventCity,
+  cancelledEventCountry,
   cities: [
     'Berlin',
     'Istanbul',

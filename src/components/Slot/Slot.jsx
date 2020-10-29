@@ -82,8 +82,8 @@ const Slot = ({ slot, date, favorites, setFavorites, viewType }) => {
             </StyledRoomIcon>
             <StyledRoomLabel>Track:</StyledRoomLabel>
             <StyledRoomName>
-              <a href={slot.meet_link} alt="Google meet link for track">
-                {slot.room} - Google Meet Link
+              <a href={slot.meet_link} alt="Teams link for track">
+                {slot.room} - Teams Link
               </a>
             </StyledRoomName>
           </StyledRoom>

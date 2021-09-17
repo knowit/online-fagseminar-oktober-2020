@@ -39,7 +39,7 @@
     "remark-html": "^10.0.0",
     "serialize-javascript": "^2.1.1",
     "serverless": "^1.62.0",
-    "set-value": "^3.0.1",
+    "set-value": "^4.0.1",
     "travis": "^0.1.1",
     "unified": "^8.4.2"
   },

@@ -23,7 +23,7 @@
     "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-source-airtable": "^2.0.12",
     "gatsby-source-filesystem": "^2.1.47",
-    "gatsby-transformer-remark": "^2.6.49",
+    "gatsby-transformer-remark": "^5.25.1",
     "gh-pages": "^2.2.0",
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.15",
